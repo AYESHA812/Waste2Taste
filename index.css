@@ -1,5 +1,12 @@
 html{
     background-color: #F6F6F2;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Custom Font' ;
+    src: url('assets/fonts/Lovelo\ Black.otf') format('otf');
 }
 
 
@@ -9,7 +16,7 @@ ul li{
 
 a{
     text-decoration: none;
-    color:black;
+    color: #000;
     font-size: 25px;
 
 }
@@ -27,7 +34,7 @@ a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 1.5rem;
+        
         
     
 }
@@ -49,15 +56,16 @@ ul{
 }
 
 .title{
-    color: #388087;
+    color: #0f606b;
     font-weight: bold;
-    font-size: 75px;
+    font-size: 50px;
+    font-family: 'Custom Font';
 }
 
 .login-button{
     border-radius: 25px;
-    background-color: #6FB3B8;
-    border-radius: 25px;
+    background-color: #388087;
+    border-radius: 87px;
     border: none;
     padding: 15px 30px;
     color: white;
@@ -66,5 +74,118 @@ ul{
 }
 
 .login-button:hover{
-    background-color: #388087;
+    background-color: rgb(187, 176, 154)
 }
+
+.picture{
+    float: right;
+    width: 1253;
+    height: 810;
+}
+
+.tagline{
+    color: #0F606B;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.option{
+    color:#388087;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.donate-button{
+    border-radius: 25px;
+    background-color: #388087;
+    border-radius: 87px;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 275px;
+}
+
+.donate-button:hover{
+    background-color: rgb(187, 176, 154)
+}
+
+.receive-button{
+    border-radius: 25px;
+    background-color: #388087;
+    border-radius: 87px;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+
+.receive-button:hover{
+    background-color: rgb(187, 176, 154)
+}
+
+.heading{
+    margin-top: 250px;
+    text-align: center;
+    color: #0f606b;
+    font-size: 45px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+.row {
+    margin: 0 -5px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+   
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card-content {
+    padding: 15px;
+    color: #388087;
+  }
+  
+  .card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    margin: 10px 0;
+  }
+  
+  .card a {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .card a:hover {
+    background-color: #0056b3;
+  }
+  
+
